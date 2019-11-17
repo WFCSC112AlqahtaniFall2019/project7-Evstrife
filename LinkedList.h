@@ -6,14 +6,18 @@
 
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
-#include "Data.h" //You need to create this
+#include "data.h" //You need to create this
 
 class Node {
 public:
-    Data data; // object at node
+    data data1; // object at node
     Node *next; // pointer to next node
 
-    Node(const Data &d, Node *n);
+    Node(data &d)
+    {
+        data1 = d;
+        next= nullptr;
+    }
 };
 
 class LinkedList {
@@ -23,7 +27,7 @@ public:
     LinkedList();
     LinkedList(const LinkedList& list);
     const LinkedList& operator=(LinkedList rhs);
-    void print(ostream &os);
+    void print(ostream &os, data data0);
     void pop_head();
     ~LinkedList();
 };
