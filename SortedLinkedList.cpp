@@ -13,12 +13,12 @@ void SortedLinkedList::insertSorted(Node data3) {
     //if the list is empty
     if (head == nullptr) {
         head = newData;
-        //if not empty all of the below is run to insert the node in the new location
+        //if not empty, insert node the new location
     } else {
         Node *current = head;
         Node *previous = nullptr;
 
-        //current->data > newData->data
+
         if (newData->data1 < current->data1) {
             newData->next = head;
             head = newData;
@@ -29,7 +29,7 @@ void SortedLinkedList::insertSorted(Node data3) {
         current = current->next;
 
         while (current) {
-            //newData->data > current->data
+
             if (current->data1 < newData->data1) {
                 previous = current;
                 current = current->next;
