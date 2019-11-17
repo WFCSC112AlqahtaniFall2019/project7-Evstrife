@@ -1,0 +1,2 @@
+This data set includes 721 Pokemon, including their number, name, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed.
+Pokemon is the first 3ds game that I get in touched with when I was little. So I choose this data set to honor this legendary game.
