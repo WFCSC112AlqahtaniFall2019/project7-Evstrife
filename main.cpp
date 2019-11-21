@@ -45,7 +45,7 @@ int main() {
 
     outQueue<<"Number, Name, HP, Attack, Defence, SpecialAttack, SpecialDefence, Speed"<<endl;
     outStack<<"Number, Name, HP, Attack, Defence, SpecialAttack, SpecialDefence, Speed"<<endl;
-    outSorted<<"This list is sorted by Number"<<endl;
+    outSorted<<"This list is sorted by HP"<<endl;
     outSorted<<"Number, Name, HP, Attack, Defence, SpecialAttack, SpecialDefence, Speed"<<endl;
 
 

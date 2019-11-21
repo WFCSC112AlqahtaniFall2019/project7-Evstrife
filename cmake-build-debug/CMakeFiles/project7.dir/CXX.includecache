@@ -10,12 +10,6 @@
 data.h
 /Users/evawu/CLionProjects/project7-Evstrife/data.h
 
-/Users/evawu/CLionProjects/project7-Evstrife/SortedLinkedList.cpp
-string
--
-SortedLinkedList.h
-/Users/evawu/CLionProjects/project7-Evstrife/SortedLinkedList.h
-
 /Users/evawu/CLionProjects/project7-Evstrife/SortedLinkedList.h
 string
 -
@@ -23,14 +17,6 @@ data.h
 /Users/evawu/CLionProjects/project7-Evstrife/data.h
 LinkedList.h
 /Users/evawu/CLionProjects/project7-Evstrife/LinkedList.h
-
-/Users/evawu/CLionProjects/project7-Evstrife/data.cpp
-string
--
-iostream
--
-data.h
-/Users/evawu/CLionProjects/project7-Evstrife/data.h
 
 /Users/evawu/CLionProjects/project7-Evstrife/data.h
 string
@@ -55,10 +41,6 @@ SortedLinkedList.h
 /Users/evawu/CLionProjects/project7-Evstrife/queue.h
 LinkedList.h
 /Users/evawu/CLionProjects/project7-Evstrife/LinkedList.h
-
-/Users/evawu/CLionProjects/project7-Evstrife/stack.cpp
-stack.h
-/Users/evawu/CLionProjects/project7-Evstrife/stack.h
 
 /Users/evawu/CLionProjects/project7-Evstrife/stack.h
 LinkedList.h
