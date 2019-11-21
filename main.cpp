@@ -25,23 +25,23 @@ int main() {
     outSorted.open("Sorted.txt");
 
     if(!in.is_open()){
-        cout<<"Input file did not open!!"<<endl;
+        cout<<"Input file did not open"<<endl;
         return 1;
     }
     if(!outStack.is_open()){
-        cout<<"Stack output file did not open!!"<<endl;
+        cout<<"Stack output file did not open"<<endl;
         return 2;
     }
     if(!outQueue.is_open()){
-        cout<<"Queue output file did not open!!"<<endl;
+        cout<<"Queue output file did not open"<<endl;
         return 3;
     }
     if(!outSorted.is_open()){
-        cout<<"Sorted output file did not open!!"<<endl;
+        cout<<"Sorted output file did not open"<<endl;
         return 4;
     }
 
-    cout<<"All files are opened!"<<endl<< "../Pokemon.csv is being read"<<endl;
+    cout<<"All files open"<<endl<< "../Pokemon.csv is being read"<<endl;
 
     outQueue<<"Number, Name, HP, Attack, Defence, SpecialAttack, SpecialDefence, Speed"<<endl;
     outStack<<"Number, Name, HP, Attack, Defence, SpecialAttack, SpecialDefence, Speed"<<endl;
@@ -99,7 +99,7 @@ int main() {
     outQueue.close();
     outSorted.close();
     outStack.close();
-    cout<<"All files are closed!"<<endl;
+    cout<<"All files closed"<<endl;
 
 
     return 0;
